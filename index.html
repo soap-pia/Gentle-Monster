@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Nanum+Myeongjo:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"  rel="stylesheet">
+  </head>
+
+  <body>
+  <!--Logo & Nav Bar-->
+  <header class="header-background" id="header">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#Featured">Featured</a></li>
+        <li><a class="nav-link" href="#Collection">2024 Collection</a></li>
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/GENTLE_MONSTER_Logo_New_2.svg/800px-GENTLE_MONSTER_Logo_New_2.svg.png">
+        <li><a class="nav-link" href="#Explore">Explore</a></li>
+        <li><a class="nav-link" href="#Connect">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Hero Section-->
+  <section id="hero">
+    <div class="video-container video-bg">
+      <div id="video"></div>
+    </div>
+  </section>
+
+  <section id="Featured">
+    <!--Section 1: Gummy MG1 Glasses-->
+      <div class="scroll-section" id="section1">
+        <h2 class="section-heading heading1-color">GENTLE JELLY</h2>
+        <div class="section1-image">
+          <img src="https://res.cloudinary.com/dm9uusmuc/image/upload/ar_1:1,c_auto/gummymg1_final_gzern9.jpg" alt="Gentle Monster Gummy MG1 Glasses">
+          </div>
+          <p class="section-text text1-color">GUMMY</p>
+      </div>
+
+    <!--Section 2: Gummy PC12 Glasses-->
+      <div class="scroll-section" id="section2">
+          <h2 class="section-heading heading2-color">GENTLE JELLY</h2>
+          <div class="section2-image">
+            <img src="https://res.cloudinary.com/dm9uusmuc/image/upload/v1753713060/gummypc12_final_favy1l.png" alt="Gentle Monster Gummy PC12 Glasses">
+          </div>
+          <p class="section-text text2-color">WHIMSICAL</p>
+      </div>
+
+    <!--Section 3: Gelati MG4 Glasses-->
+      <div class="scroll-section" id="section3">
+          <h2 class="section-heading heading3-color">GENTLE JELLY</h2>
+          <div class="section3-image">
+            <img src="https://res.cloudinary.com/dm9uusmuc/image/upload/v1753715167/gelatimg4_final_teg2en.png" alt="Gentle Monster Gelati MG4 Glasses">
+          </div>
+          <p class="section-text text3-color">ICONIC</p>
+        </div>
+  </section>
+
+  <section id="Collection">
+    <h2 class="heading">2024 Collection</h2>
+    <p class="text">The 2024 ‘GENTLE JELLY’ campaign reveals a daring line of eyewear that whimsically captures unique characteristics of jelly. Discover the unmatched level of detail in this bold campaign <a class="link-arrow" href="https://www.gentlemonster.com/int/en/category/collections/2024-collection">→</a></p>
+
+    <!--Infinite Slider: pause on hold-->
+    <div class="slider-top"></div>
+    <div class="slider" style="
+      --width: 350px;
+      --height: 300px;
+      --quantity: 12;
+      ">
+      <div class="list">
+        <!-- Original set -->
+        <div class="item" style="--position: 1"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/KOJL5WV084FG/KOJL5WV084FG_D_45.jpg?width=1400" alt="Gummy MG1"></div>
+        <div class="item" style="--position: 2"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/KOJL5WV1C02T/KOJL5WV1C02T_D_45.jpg?width=1400" alt="Gummy PC12"></div>
+        <div class="item" style="--position: 3"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/LFW87ENRZRNE/LFW87ENRZRNE_D_45.jpg?width=1400" alt="Gelati MG4"></div>
+        <div class="item" style="--position: 4"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/KOJL5WV28OUR/KOJL5WV28OUR_D_45.jpg?width=1400" alt="Gelati 01"></div>
+        <div class="item" style="--position: 5"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/VBGJQU22GFN4/VBGJQU22GFN4_D_45.jpg?width=1400" alt="Young G13"></div>
+        <div class="item" style="--position: 6"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/MYLIAE9CLNFJ/MYLIAE9CLNFJ_D_45.jpg?width=1400" alt="Panna Cotta MG1"></div>
+        <div class="item" style="--position: 7"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/KOJL5WV3B46O/KOJL5WV3B46O_D_45.jpg?width=1400" alt="Gelati W3"></div>
+        <div class="item" style="--position: 8"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/VDO3XPRW74VL/VDO3XPRW74VL_D_45.jpg?width=1400" alt="Umber PC9"></div>
+        <div class="item" style="--position: 9"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/VDO3XPRX3ALG/VDO3XPRX3ALG_D_45.jpg?width=1400" alt="Umber BLC7"></div>
+        <div class="item" style="--position: 10"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/RKWWQ8S06SA9/RKWWQ8S06SA9_D_45.jpg?width=1400" alt="Row WC7"></div>
+        <div class="item" style="--position: 11"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/M78V8WGND286/M78V8WGND286_D_45.jpg?width=1400" alt="Sugar Buff IV2"></div>
+        <div class="item" style="--position: 12"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/W50QZ7KN3L96/W50QZ7KN3L96_D_45.jpg?width=1400" alt="Atempo Y5"></div>
+
+        <!-- Duplicated set -->
+        <div class="item" style="--position: 1"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/KOJL5WV084FG/KOJL5WV084FG_D_45.jpg?width=1400" alt="Gummy MG1"></div>
+        <div class="item" style="--position: 2"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/KOJL5WV1C02T/KOJL5WV1C02T_D_45.jpg?width=1400" alt="Gummy PC12"></div>
+        <div class="item" style="--position: 3"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/LFW87ENRZRNE/LFW87ENRZRNE_D_45.jpg?width=1400" alt="Gelati MG4"></div>
+        <div class="item" style="--position: 4"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/KOJL5WV28OUR/KOJL5WV28OUR_D_45.jpg?width=1400" alt="Gelati 01"></div>
+        <div class="item" style="--position: 5"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/VBGJQU22GFN4/VBGJQU22GFN4_D_45.jpg?width=1400" alt="Young G13"></div>
+        <div class="item" style="--position: 6"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/MYLIAE9CLNFJ/MYLIAE9CLNFJ_D_45.jpg?width=1400" alt="Panna Cotta MG1"></div>
+        <div class="item" style="--position: 7"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/KOJL5WV3B46O/KOJL5WV3B46O_D_45.jpg?width=1400" alt="Gelati W3"></div>
+        <div class="item" style="--position: 8"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/VDO3XPRW74VL/VDO3XPRW74VL_D_45.jpg?width=1400" alt="Umber PC9"></div>
+        <div class="item" style="--position: 9"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/VDO3XPRX3ALG/VDO3XPRX3ALG_D_45.jpg?width=1400" alt="Umber BLC7"></div>
+        <div class="item" style="--position: 10"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/RKWWQ8S06SA9/RKWWQ8S06SA9_D_45.jpg?width=1400" alt="Row WC7"></div>
+        <div class="item" style="--position: 11"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/M78V8WGND286/M78V8WGND286_D_45.jpg?width=1400" alt="Sugar Buff IV2"></div>
+        <div class="item" style="--position: 12"><img src="https://gm-prd-resource.gentlemonster.com/catalog/product/W50QZ7KN3L96/W50QZ7KN3L96_D_45.jpg?width=1400" alt="Atempo Y5"></div>
+    </div>
+  </div>
+</section>
+
+  <section id="Explore">
+    <h2 class="heading">Explore</h2>
+    <p class="text">The 2024 Collection Jelly pop-up experiences were hosted in Seoul and Beijing to celebrate the launch of the ‘GENTLE JELLY’ collection. Find yourself amongst a whimsical land with life-sized jelly sculptures that inspires our campaign.</p>
+  <div class="pop-up">
+    <img class="main-img" src="https://web-resource.gentlemonster.com/assets/stories/2024-collection/popup/carousel/popup-space-1.jpg" alt="Gentle Jelly Pop-Up">
+    <img class="jelly dino" src="https://web-video-resource.gentlemonster.com/assets/stories/24-jelly/2024collection-popup/Jelly01.png">
+    <img class="jelly person" src="https://web-video-resource.gentlemonster.com/assets/stories/24-jelly/2024collection-popup/Jelly02.png">
+    <img class="jelly heart" src="https://web-video-resource.gentlemonster.com/assets/stories/24-jelly/2024collection-popup/Jelly04.png">
+    <img class="jelly star" src="https://web-video-resource.gentlemonster.com/assets/stories/24-jelly/2024collection-popup/Jelly05.png">
+    <img class="jelly orange-pudding" src="https://web-video-resource.gentlemonster.com/assets/stories/24-jelly/2024collection-popup/Jelly07.png">
+    <img class="jelly bean" src="https://web-video-resource.gentlemonster.com/assets/stories/24-jelly/2024collection-popup/Jelly08.png">
+  </div>
+  </section>
+
+  <section id="Connect">
+    <h2 class="heading">Connect</h2>
+    <p class="text"><strong>Discover Gentle Monster’s latest creations — join us for a flavorful journey.</strong>
+    <br>With a single click, you can access a world of new products, campaigns, pop-up experiences, and more. Take part in shaping Gentle Monster's story with us.
+</p>
+
+  <section class="jelly-drop">
+    <canvas id="jellyCanvas"></canvas>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+    <div class="form-container">
+        <label for="first-name" id="name">First Name</label>
+        <input type="text" id="first-name" name="name" placeholder="First name*" required>
+        <label for="last-name" id="name">Last Name</label>
+        <input type="text" id="last-name" name="name" placeholder="Last name*" required>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email address*" required />
+        <input type="submit" id="submit" name="submit" />
+      </div>
+    </form>
+  </section>
+  </section>
+    
+  <!-- Matter.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+
+  <!-- Javascripts -->
+  <script src="hero.js" defer></script>
+  <script src="jelly.js" defer></script>
+  </body>
+</html>
